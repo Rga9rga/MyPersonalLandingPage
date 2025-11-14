@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rubén Gálvez Álvarez</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="contenedor">
+  <div class="cabecera">
+    <div class="foto-perfil">
+      <img src="assets/foto.png" alt="Foto de Rubén Gálvez Álvarez">
+    </div>
+    <div class="nombre">Rubén Gálvez Álvarez</div>
+    <div class="descripcion">Perfil técnico y deportivo con experiencia en salud, laboratorio y programación</div>
+    <div class="botones-accion">
+      <a class="boton" href="mailto:galvillo9@gmail.com">Enviar correo</a>
+      <a class="boton" href="https://github.com/Rga9rga" target="_blank" rel="noopener">Ver GitHub</a>
+      <a class="boton" href="assets/curriculum.pdf" download>Descargar CV</a>
+    </div>
+  </div>
+
+  <div class="navegacion">
+    <button class="pestana pestana-activa" id="tab-inicio" onclick="cambiar('inicio')">Inicio</button>
+    <button class="pestana" id="tab-experiencia" onclick="cambiar('experiencia')">Experiencia</button>
+    <button class="pestana" id="tab-formacion" onclick="cambiar('formacion')">Formación</button>
+    <button class="pestana" id="tab-habilidades" onclick="cambiar('habilidades')">Habilidades</button>
+    <button class="pestana" id="tab-proyectos" onclick="cambiar('proyectos')">Proyectos</button>
+    <button class="pestana" id="tab-contacto" onclick="cambiar('contacto')">Contacto</button>
+    <button class="pestana" id="tab-cv" onclick="cambiar('cv')">Ver CV</button>
+  </div>
+
+  <div class="contenido">
+    <div class="seccion" id="inicio" style="display:block">
+      <div class="bloque">
+        <div class="titulo-bloque">Sobre mí</div>
+        <div class="item">
+          Me llamo Rubén, tengo 21 años y vengo del mundo del waterpolo, donde llevo muchos años jugando y sigo activo en la actualidad. Actualmente compagino mis estudios con mi trabajo como entrenador de waterpolo con menores, algo que me apasiona.
+        </div>
+        <div class="item">
+          Mi curiosidad por entender el cuerpo humano me llevó a estudiar anatomía patológica y citodiagnóstico. He trabajado en laboratorios de diagnóstico molecular y también en control de calidad alimentaria, donde aprendí a aplicar rigor y precisión en cada tarea.
+        </div>
+        <div class="item">
+          La tecnología es mi otra pasión. Me encanta programar, aprender por mi cuenta y usar herramientas de inteligencia artificial para resolver problemas de forma más eficiente. Actualmente estoy estudiando desarrollo web y cada día aprendo algo nuevo.
+        </div>
+        <div class="linea-separadora"></div>
+        <div class="item">Fecha de nacimiento: 07/02/2004</div>
+        <div class="item">Edad: 21 años</div>
+        <div class="item">Carné de conducir y vehículo propio</div>
+      </div>
+      <div class="bloque">
+        <div class="titulo-bloque">Lo que busco</div>
+        <div class="item">
+          Me gustan los entornos donde se valora la constancia, el orden y las ganas de aprender. Prefiero trabajar con objetivos claros donde pueda ver mi evolución y los resultados de mi esfuerzo.
+        </div>
+        <div class="item">
+          Tengo facilidad para manejar números y datos, y mi experiencia en sectores muy diferentes me ha enseñado a adaptarme rápido y a trabajar con responsabilidad en cualquier entorno profesional.
+        </div>
+      </div>
+      <div class="bloque">
+        <div class="titulo-bloque">Aficiones</div>
+        <div class="item">Practicar waterpolo y mantener una buena forma física</div>
+        <div class="item">Entrenar a jóvenes deportistas en diferentes categorías de waterpolo</div>
+        <div class="item">Aprender nuevas tecnologías y herramientas de programación</div>
+      </div>
+    </div>
+
+    <div class="seccion" id="experiencia">
+      <div class="bloque">
+        <div class="titulo-bloque">Experiencia laboral</div>
+        <div class="item">
+          <div class="item-titulo">Entrenador de waterpolo</div>
+          <div class="item-subtitulo">Trabajo con menores en diferentes categorías | 2024 - Actualidad</div>
+          <div>Entrenamiento y formación deportiva de jóvenes deportistas en waterpolo. Planificación de sesiones, seguimiento del progreso individual y gestión de grupos. Compagino esta actividad con mis estudios en desarrollo de aplicaciones web.</div>
+        </div>
+        <div class="linea-separadora"></div>
+        <div class="item">
+          <div class="item-titulo">Socorrista de piscina municipal</div>
+          <div class="item-subtitulo">Piscina Municipal Gilet y Quartell | 2019 - 2025</div>
+          <div>Vigilancia constante de los bañistas y supervisión de las instalaciones. Mantenimiento y control del estado del agua. Aplicación de normas de seguridad y reglamentos de la piscina.</div>
+        </div>
+        <div class="linea-separadora"></div>
+        <div class="item">
+          <div class="item-titulo">Técnico de laboratorio en departamento de calidad</div>
+          <div class="item-subtitulo">Laboratorios de la fábrica Don Simón | 2024 (5 meses)</div>
+          <div>Soporte en laboratorio industrial para control de calidad sobre procesos y muestras. Análisis de parámetros físico-químicos y microbiológicos en productos alimentarios.</div>
+        </div>
+        <div class="linea-separadora"></div>
+        <div class="item">
+          <div class="item-titulo">Prácticas en anatomía patológica y citodiagnóstico</div>
+          <div class="item-subtitulo">Progenie Molecular | 2023 - 2024</div>
+          <div>Ejecución y análisis de técnicas de PCR convencional y a tiempo real para la detección y cuantificación de biomoléculas específicas. Extracción, purificación y análisis de ácidos nucleicos (ADN, ARN). Realización de ensayos de biología molecular para el diagnóstico de enfermedades genéticas o infecciosas. Procesamiento y análisis de muestras para pruebas de paternidad mediante técnicas de biología molecular.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="seccion" id="formacion">
+      <div class="bloque">
+        <div class="titulo-bloque">Formación académica</div>
+        <div class="item">
+          <div class="item-titulo">Desarrollo de Aplicaciones Web (DAW)</div>
+          <div class="item-subtitulo">En curso</div>
+        </div>
+        <div class="linea-separadora"></div>
+        <div class="item">
+          <div class="item-titulo">CFGS Anatomía patológica y citodiagnóstico</div>
+          <div class="item-subtitulo">CIFP La Laboral | 2022 - 2024</div>
+        </div>
+        <div class="linea-separadora"></div>
+        <div class="item">
+          <div class="item-titulo">Bachiller científico</div>
+          <div class="item-subtitulo">IES Camp de Morvedre | 2020 - 2022</div>
+        </div>
+      </div>
+      <div class="bloque">
+        <div class="titulo-bloque">Títulos y certificaciones</div>
+        <div class="item">
+          <div class="item-titulo">Monitor de natación</div>
+          <div class="item-subtitulo">Real Federación Española de Natación | 2025</div>
+        </div>
+        <div class="linea-separadora"></div>
+        <div class="item">
+          <div class="item-titulo">Socorrista de espacios abiertos naturales e instalaciones acuáticas</div>
+          <div class="item-subtitulo">Real Federación de Salvamento y Socorrismo | 2019</div>
+        </div>
+        <div class="linea-separadora"></div>
+        <div class="item">
+          <div class="item-titulo">Árbitro de waterpolo</div>
+          <div class="item-subtitulo">Real Federación Española de Natación | 2022</div>
+        </div>
+      </div>
+      <div class="bloque">
+        <div class="titulo-bloque">Formación complementaria</div>
+        <div class="item">
+          <div class="item-titulo">Curso de mantenimiento de piscinas</div>
+          <div class="item-subtitulo">Química Rogemar</div>
+          <div>Llevé el mantenimiento de la piscina municipal de Quartell durante el verano de 2025, compaginándolo con mi trabajo como socorrista en la misma instalación.</div>
+        </div>
+        <div class="linea-separadora"></div>
+        <div class="item">
+          <div class="item-titulo">Curso de inteligencia artificial</div>
+          <div class="item-subtitulo">Cursillos online Gdoce | 2023</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="seccion" id="habilidades">
+      <div class="bloque">
+        <div class="titulo-bloque">Habilidades técnicas</div>
+        <div class="item">Capacidad de adaptación rápida a nuevos entornos, herramientas y tecnologías</div>
+        <div class="item">Conocimientos sólidos en informática: estoy aprendiendo programación de forma autodidacta, domino el paquete Office y tengo experiencia usando herramientas de inteligencia artificial de forma práctica</div>
+        <div class="item">Manejo fluido de números, análisis de datos y trabajo con hojas de cálculo</div>
+        <div class="item">Experiencia práctica en técnicas de laboratorio molecular, PCR y control de calidad en entornos sanitarios e industriales</div>
+      </div>
+      <div class="bloque">
+        <div class="titulo-bloque">Idiomas</div>
+        <div class="item">Valenciano: Nivel C1 (toda mi educación ha sido en valenciano)</div>
+        <div class="item">Inglés: Nivel C1 con título B2 en Trinity</div>
+      </div>
+    </div>
+
+    <div class="seccion" id="proyectos">
+      <div class="bloque">
+        <div class="titulo-bloque">Proyectos</div>
+        <div class="item">
+          <div class="item-titulo">Proyecto Intermodular (1º DAW)</div>
+          <div class="item-subtitulo">Proyecto final del primer curso de Desarrollo de Aplicaciones Web.</div>
+          <div>
+            Aplicación web desarrollada como proyecto final.
+            Puedes ver el código y la documentación en el repositorio de GitHub:
+            <a href="https://github.com/JoseGG16/ProyectoIntermodular" target="_blank" rel="noopener" style="color:#6dba7a;text-decoration:none;">
+              github.com/JoseGG16/ProyectoIntermodular
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="seccion" id="contacto">
+      <div class="bloque">
+        <div class="titulo-bloque">Información de contacto</div>
+        <div class="item">Nombre: Rubén Gálvez Álvarez</div>
+        <div class="item">Teléfono: +34 691 74 52 20</div>
+        <div class="item">Email: <a href="mailto:galvillo9@gmail.com" style="color:#6dba7a;text-decoration:none;">galvillo9@gmail.com</a></div>
+        <div class="item">Dirección: C/ Magallanes nº 8 Bajo, Puerto de Sagunto, España</div>
+        <div class="item">GitHub: <a href="https://github.com/Rga9rga" target="_blank" rel="noopener" style="color:#6dba7a;text-decoration:none;">github.com/Rga9rga</a></div>
+      </div>
+    </div>
+
+    <div class="seccion" id="cv">
+      <div class="bloque">
+        <div class="titulo-bloque">Currículum en PDF</div>
+        <div class="item">
+          <a class="boton" href="assets/curriculum.pdf" download>Descargar PDF</a>
+          <a class="boton" href="assets/curriculum.pdf" target="_blank" rel="noopener">Abrir en nueva pestaña</a>
+        </div>
+        <div class="linea-separadora"></div>
+        <div class="item">Vista previa integrada:</div>
+        <embed class="pdf-visor" src="assets/curriculum.pdf#view=FitH" type="application/pdf">
+      </div>
+    </div>
+  </div>
+
+  <div class="pie">© Rubén Gálvez Álvarez</div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
